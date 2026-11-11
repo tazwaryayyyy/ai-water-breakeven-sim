@@ -1,0 +1,15 @@
+{
+  "name": "ai-water-break-even-workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx pnpm --dir artifacts/ai-water-break-even run build",
+    "typecheck": "npx pnpm --dir artifacts/ai-water-break-even run typecheck",
+    "test": "npx pnpm --dir artifacts/ai-water-break-even run test"
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "typescript": "~5.9.3"
+  }
+}
